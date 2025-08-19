@@ -1,0 +1,24 @@
+{
+  "name": "ppmk4u-community-management",
+  "version": "1.0.0",
+  "description": "Community management web application",
+  "isPublic": true,
+  "buildType": "web",
+  "platform": "mobile",
+  "deployment": {
+    "type": "static",
+    "outputDir": "dist",
+    "baseUrl": "./",
+    "publicPath": "./"
+  },
+  "mobile": {
+    "enabled": true,
+    "pwa": true,
+    "responsive": true
+  },
+  "build": {
+    "sourcemap": false,
+    "minify": true,
+    "target": "es2015"
+  }
+}
