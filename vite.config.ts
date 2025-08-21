@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   base: './',
   define: {
-    'process.env.VITE_IS_PUBLIC': JSON.stringify(true),
+    'process.env.VITE_IS_PUBLIC': JSON.stringify('true'),
     'process.env.VITE_BUILD_TYPE': JSON.stringify('production')
   },
   build: {
